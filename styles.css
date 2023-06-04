@@ -1,0 +1,111 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@700&family=Roboto&display=swap');
+
+  *{
+    margin:0;
+    padding: 0;
+
+}
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url(background.png);
+  background-size: cover;
+}
+h1{
+  font-family: "Roboto",sans-serif;
+  font-size: 100px;
+  color:  rgba(255, 255, 255, 0.877);
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.541);
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+}
+.input-btn{
+  width: 100%;
+  /*background-color: aqua;*/
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+input{
+  font-size: 17px;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-family: "Roboto",sans-serif;
+  width: 100%;
+}
+input:hover,input:focus{
+  box-shadow:
+   0 0 20px 0 rgba(255, 255, 255, 0.493) ;
+}
+
+button{
+  height:38px; 
+  width:45px;
+  font-size: 25px;
+  border-radius:50%;
+  margin-left: 10px;
+  border: none;
+  background-color: #ffffff;
+  font-family: 'courier new', monospace;
+  font-weight: bold;
+  
+}
+button:hover{
+  cursor: pointer;
+  background-color: black;
+  color:white;
+  transform: rotate(720deg);
+  transition:all 1s;
+}
+#city-error{
+  text-align: left;
+  width: 100%;
+  padding-left: 40px;
+  font-family: "Roboto",sans-serif;
+  color: rgba(253, 31, 31, 0.705);
+  font-size: 18px;
+  margin-top: 5px;
+  display: none;
+}
+.weathercard{
+  display: flex;
+  align-items: center;
+}
+.weathercard img{
+  width: 560px;
+  margin-right: 20px;
+}
+#place-temp{
+  color: yellow;
+  font-size: 40px;
+  font-family: "Roboto",sans-serif;
+  font-weight: 700;
+}
+#weather-type{
+  font-family: "Roboto",sans-serif;
+  color: rgb(255, 255, 255 );
+  font-size: 30px;
+  font-weight: 300;
+
+}
+#displaycityname{
+    font-family: "Roboto",sans-serif;
+    color: rgb(255, 255, 255 );
+    font-size: 50px;
+    font-weight: 400;
+}
+
+
+
